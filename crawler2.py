@@ -21,14 +21,6 @@ while s!= -1:
 
     print(url)
 
-    # print(url[len(url)-26:len(url)-16])
-
-    # headers = {
-    #     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
-    #     'Host': 's12.sinaimg.cn'
-    # }
-
-    # url = 'http://s12.sinaimg.cn/orignal/6cdb8003h96ce766d446b'
     req = request.Request(url=url, method='GET')
     response = request.urlopen(req)
 

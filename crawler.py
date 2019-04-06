@@ -22,7 +22,6 @@ while s!= -1:
         'Host': 's12.sinaimg.cn'
     }
 
-    # url = 'http://s12.sinaimg.cn/orignal/6cdb8003h96ce766d446b'
     req = request.Request(url=url, headers=headers, method='GET')
     response = request.urlopen(req)
 
